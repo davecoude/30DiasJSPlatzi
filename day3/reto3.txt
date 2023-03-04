@@ -1,0 +1,31 @@
+📒 En este desafío, debes crear la lógica de la función isLeapYear,
+que determina si un año es bisiesto o no.
+
+Un año es bisiesto si cumple con las siguientes condiciones:
+
+- Es divisible por 4, pero no por 100.
+- Es divisible por 100 y por 400.
+
+La función isLeapYear recibe un único parámetro: el año a evaluar! 🎍
+
+Debe devolver true si el año es bisiesto ✅ o false en caso contrario 🔴.
+
+Toma en cuenta que la función debe ser capaz de manejar valores no enteros o negativos.
+
+
+
+💻 Dados los siguientes llamados a la función calculateTip:
+
+    <code>
+        2000;
+        -2024;
+        1984.25;
+    </code>
+
+✅ Debes obtener los siguientes resultados:
+
+    <expected>
+        true;
+        false;
+        false;
+    </expected>
